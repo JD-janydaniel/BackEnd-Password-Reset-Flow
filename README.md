@@ -47,7 +47,25 @@ https://backend-password-reset-flow.onrender.com
 ## API Documentation Link
 https://documenter.getpostman.com/view/33808453/2sA3kSo3Un
 
-
+## Packages Used
+<ul>
+  <li>bcryptjs</li>
+  <li>https://www.npmjs.com/package/bcryptjs</li>
+  <li>express</li>
+  <li>https://expressjs.com/</li>
+  <li>cors</li>
+  <li>https://www.npmjs.com/package/cors</li>
+  <li>nodemon</li>
+  <li>https://nodemon.io/</li>
+  <li>mongoose</li>
+  <li>https://mongoosejs.com/</li>
+  <li>dotenv</li>
+  <li>https://www.dotenv.org/docs</li>
+  <li>nodemailer</li>
+  <li>https://www.nodemailer.com/</li>
+  <li>jsonwebtoken</li>
+  <li>https://www.npmjs.com/package/jsonwebtoken</li>
+</ul>
 
 
 
