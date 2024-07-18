@@ -41,7 +41,7 @@ https://backend-password-reset-flow.onrender.com
   <li>The above mentioned end point can be used to get the details of the authorized use</li>
 </ul>
 
-## Back End Deployment Linl
+## Back End Deployment Link
 https://backend-password-reset-flow.onrender.com
 
 ## API Documentation Link
