@@ -39,7 +39,7 @@ export const loginUser = async (req, res) => {
     const token = jwt.sign(
       { _id: userDetail._id },
       process.env.JWT_SECRET_KEY,
-      { expiresIn: "1hr" }
+      { expiresIn: "1h" }
     );
     // userDetail.token = token;
     // await userDetail.save();
@@ -74,7 +74,7 @@ export const forgotPassword = async (req, res) => {
     }
     //jwt part token created after signin
     const token = jwt.sign({ _id: user.id }, process.env.JWT_SECRET_KEY, {
-      expiresIn: "1hr",
+      expiresIn: "1h",
     });
     const passwordReset = `https://enchanting-bonbon-6a6623.netlify.app/resetpassword/${user.id}/${token}`;
     const mailLink = await mail(user.email, "Reset Password", passwordReset);
